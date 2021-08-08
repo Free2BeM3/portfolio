@@ -1,0 +1,36 @@
+.Blog {
+  background-image: url("https://images.pexels.com/photos/1309766/pexels-photo-1309766.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: aliceblue;
+  padding-top: 55px;
+}
+
+#BL__Txt {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.Post__Galla {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.Post__Card {
+  margin: auto;
+  background-color: black;
+  width: 350px;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 225, 255);
+}
+
+.Post__Image {
+  width: 350px;
+  height: 170px;
+  border-bottom: 1px solid lightblue;
+}

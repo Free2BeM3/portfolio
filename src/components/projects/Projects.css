@@ -1,0 +1,31 @@
+.Projects {
+  background-color: rgb(48, 45, 45);
+  background-image: url("https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding-top: 50px;
+  color: aliceblue;
+}
+
+.P__Card {
+  border: 1px solid rgb(63, 60, 60);
+  margin: auto;
+  width: 400px;
+
+  background-color: rgb(69, 69, 70);
+  color: aqua;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  margin-bottom: 40px;
+}
+
+.btn:hover {
+  background-color: aqua;
+}
