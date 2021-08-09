@@ -51,7 +51,7 @@ function Projects() {
       <h1 id="title">Projects</h1>
       {projectData &&
         projectData.map((project) => (
-          <Card className="P__Card">
+          <Card id="P__Card">
             <CardActionArea>
               <CardMedia
                 component="img"

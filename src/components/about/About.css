@@ -2,7 +2,8 @@
   background-image: url("https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  background-position: center;
+  height: 100vh;
   color: aqua;
   padding: 70px;
   display: flex;
@@ -23,7 +24,7 @@
 }
 
 #imag {
-  width: 270px;
+  width: 20%;
   border-radius: 11px;
 }
 
@@ -31,5 +32,5 @@
   width: 70%;
 
   color: white;
-  height: 200px;
+  height: 80%;
 }

@@ -1,72 +1,32 @@
 .Home {
-  color: rgb(240, 224, 8);
+  color: rgb(27, 240, 8);
   font-size: xx-large;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-image: url("https://cdn.pixabay.com/photo/2017/12/26/21/19/tech-3041437_960_720.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-#Ht {
-  position: absolute;
-  left: 25px;
-  top: 120px;
-  color: rgb(72, 247, 3);
-}
-
-#Pl {
-  position: absolute;
-  top: 360px;
-  left: 700px;
-  color: rgb(247, 3, 3);
-  font-size: 58px;
-}
-
-#Ft {
-  position: absolute;
-  top: 660px;
-  left: 1055px;
-  font-size: 63px;
-  color: rgb(3, 198, 247);
-}
-
 .particles {
-  width: 100%;
-  background-color: #0c0c0c7c;
+  width: 100vw;
+  /* height: 100%; */
   z-index: -1;
 }
 
 .typewriter {
-  z-index: 99;
+  z-index: 3;
+  font-size: 40px;
+  margin-left: 20%;
   position: absolute;
-  top: 425px;
-  left: 600px;
-  font-size: 70px;
-  color: aqua;
-}
-#S1 {
-  color: red;
-}
-
-#S2 {
-  color: rgb(255, 0, 221);
-}
-
-#S3 {
-  color: rgb(0, 204, 255);
-}
-
-#S4 {
-  color: rgb(9, 255, 0);
-}
-#S5 {
-  color: rgb(255, 230, 0);
+  top: 45%;
+  color: rgb(247, 5, 29);
 }
 
 .sound {
   z-index: 2;
   position: absolute;
-  top: 150px;
-  left: 150px;
+  top: 87%;
+  left: 10px;
 }

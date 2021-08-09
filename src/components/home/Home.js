@@ -11,26 +11,26 @@ function Home() {
         <audio controls autoplay="true">
           <source src={Evolution} type="audio/mp3" />
         </audio>
-        <p>
+        {/* <p>
           Music: Evolution{" "}
           <a href="https://www.bensound.com" target="blank">
             https://www.bensound.com
           </a>
-        </p>
+        </p> */}
       </div>
-      <Typed
-        className="typewriter"
-        strings={[
-          "<p id='S1'>Dare to Dream..</p>",
-          "<p id='S2'>Dare to Care</p>",
-          "<p id='S3'>Dare to shape the future</p>",
-          "<p id='S4'>Dare to be the CHANGE,</p>",
-          "<p id='S5'>YOU want to see in the world.</p>",
-        ]}
-        typeSpeed={40}
-        backSpeed={50}
-        loop
-      />
+      <div className="typewriter">
+        <Typed
+          className="type"
+          strings={[
+            "Dare to dream...",
+            "Dare to care..",
+            "Dare to change the future..",
+          ]}
+          typeSpeed={40}
+          backSpeed={50}
+          loop
+        />
+      </div>
 
       <Particles
         className="particles"

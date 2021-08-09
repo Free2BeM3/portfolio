@@ -1,25 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 .Navbar {
-  width: 100%;
+  width: 100vw;
   height: 55px;
   border-bottom: 1px solid rgb(2, 212, 240);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background-color: black;
   color: rgb(7, 200, 248);
   font-family: "Lobster", cursive;
+  z-index: 99;
+  /* position: fixed; */
+  text-align: center;
 }
 
 #Nav__Text {
-  font-size: x-large;
+  font-size: medium;
   font-family: "Lobster", cursive;
 }
 
 a {
   color: rgb(7, 200, 248);
   text-decoration: none;
+  font-size: medium;
 }
 
 a:hover {

@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="Nav__Left">
-        <h3 id="Nav__Text">Mike Jones</h3>
+        <p id="Nav__Text">Free2BeM3</p>
       </div>
       <div className="Nav__Center">
         <Link to="/" exact>
