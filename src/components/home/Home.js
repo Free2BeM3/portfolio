@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css";
 import Typed from "react-typed";
 import Particles from "react-particles-js";
-import Sound from "react-sound";
 import Evolution from "../../sounds/bensound-evolution.mp3";
 
 function Home() {
