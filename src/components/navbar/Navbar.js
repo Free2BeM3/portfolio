@@ -66,9 +66,9 @@ function Navbar() {
         <a href="https://www.instagram.com/free_2_be_m3/" target="blank">
           <InstagramIcon />
         </a>
-        <a href="https://www.facebook.com/DNIDGAMING" target="blank">
+        {/* <a href="https://www.facebook.com/DNIDGAMING" target="blank">
           <FacebookIcon />
-        </a>
+        </a> */}
       </div>
     </div>
   );

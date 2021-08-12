@@ -30,7 +30,36 @@
 
 .content {
   width: 70%;
-
-  color: white;
+  text-shadow: 2px 2px black;
+  color: rgb(3, 248, 224);
   height: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+  #About__Card {
+    width: 80%;
+    height: fit-content;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(7, 7, 7, 0.412);
+    /* color: rgb(209, 218, 218); */
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  #imag {
+    width: 50%;
+    height: 20%;
+    border-radius: 11px;
+  }
+
+  .content {
+    width: 70%;
+
+    color: rgb(3, 248, 224);
+    text-shadow: 2px 2px black;
+    height: 80%;
+  }
 }
