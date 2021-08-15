@@ -54,6 +54,7 @@ function Projects() {
           <Card id="P__Card">
             <CardActionArea>
               <CardMedia
+                id="P__img"
                 component="img"
                 alt={project.title}
                 height="150"
